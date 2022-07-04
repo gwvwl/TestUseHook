@@ -1,0 +1,46 @@
+body{
+
+    background: #E5E5E5;
+}
+a{
+    display: block;
+}
+li {
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+span{
+    display: block;
+}
+img{
+    display: block;
+    object-fit: cover;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+h2{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .employee__card{
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1125px) {
+    .employee__card{
+        justify-content: space-around;
+    }
+}
