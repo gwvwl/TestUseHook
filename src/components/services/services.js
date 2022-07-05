@@ -18,7 +18,7 @@ class EmployeeTest {
     }
     
     getEmloyee = async (offset = this._baseOffset) => {
-        const res = await this.getResource(`https://frontend-test-assignment-api.abz.agency/api/v1/users?page=1&offset=${offset}&count=6`);
+        const res = await this.getResource(`https://frontend-test-assignment-api.abz.agency/api/v1/users?page=1&offset=${offset}&count=8`);
         return res.users.map(this._transformEmployee);
     }
 

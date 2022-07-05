@@ -36,8 +36,7 @@ const Main = () => {
     function renderItems (arr) {
         const items = arr.map(item => {
             return (
-                <div className="employee__card" key={item.id}>
-                    <div className="employee__card__item">
+                    <div className="employee__card__item" key={item.id}>
                         <img src={item.photo} alt="foto"/>
                         <span className="employee-name">{item.name}</span>
                         <ul className="employee-promo">
@@ -46,7 +45,6 @@ const Main = () => {
                             <li className="employee-promo__number">{item.phone}</li>
                         </ul>
                     </div>
-                </div>
             )
         });
         return items;

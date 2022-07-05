@@ -36,9 +36,11 @@
     line-height: 26px;
 }
 
+
 .employee__card{
-    display: flex;
+    display: grid;
+    grid-template:repeat(3, 254px)/ repeat(3, 370px) ;
     justify-content: space-between;
-    flex-wrap: wrap;
+    row-gap: 20px;
 
 }
